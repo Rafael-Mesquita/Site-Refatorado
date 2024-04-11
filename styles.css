@@ -1,0 +1,65 @@
+/* Estilos CSS para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    /* Adicionando um gradiente radial na cor prata como plano de fundo */
+    background-image: radial-gradient(circle, rgb(132, 129, 129), rgb(209, 206, 206));
+}
+
+  header {
+    
+    text-shadow: 2px 2px 4px #000000;
+    color: #07c900;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    text-shadow: 2px 2px 6px #000000;
+    color: #000000;
+    
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 100px;
+    line-height: 2;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #a92b2b;
+    background-color: aliceblue;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+  }
+  
